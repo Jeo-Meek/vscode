@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','UsersController@root');
+Route::get('/',UsersController@root);
